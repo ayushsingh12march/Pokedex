@@ -29,7 +29,7 @@ export const Pokedex = ({ pokemons, handlePokeSearch, handleClick, selectedPokem
             ? <PokeSearchResult
               showResult={true}
               name={selectedPokemon.name}
-              id={selectedPokemon.name}
+              id={selectedPokemon.id}
               sprites={JSON.parse(selectedPokemon.sprites).animated}
               weight={selectedPokemon.weight}
               height={selectedPokemon.height}
